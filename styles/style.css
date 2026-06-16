@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  padding: 95px 50px 100px;
+  padding: 92px 50px 95px;
 }
 
 .header__links-list {
@@ -22,8 +22,12 @@
 }
 
 .header__logo {
-  width: 148px;
-  height: 100px;
+  width: 130px;
+  height: 105px;
+}
+
+.header__logo-image {
+  display: block;
 }
 
 .address {
@@ -102,7 +106,7 @@
   font-size: 22px;
   line-height: 28px;
   text-transform: uppercase;
-  word-spacing: 25px;
+  word-spacing: 19px;
   color: rgb(255, 255, 255, 1);
 }
 
@@ -191,7 +195,7 @@
 }
 
 .card__text {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -201,7 +205,7 @@
 
 .lots__look-more-link {
   display: inline-block;
-  padding: 30px 0 0 40px;
+  padding: 32px 0 0 40px;
   font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -211,11 +215,11 @@
 }
 
 .about {
-  padding: 0 24px 180px;
+  padding: 0 0 170px 24px;
 }
 
 .about__column {
-  padding: 35px 0 0;
+  padding: 35px 50px 0 0;
   display: grid;
   grid-template-columns: 1fr 2fr;
   gap: 25px;
@@ -249,6 +253,7 @@
 }
 
 .about__text {
+  padding: 10px 0 10px;
   display: flex;
   flex-direction: column;
   gap: 24px;
